@@ -1,5 +1,7 @@
-# mern_ninja_practice
+# solution branch
 
+# mern_ninja_practice
+ 
 
 - [ ] Create a Ninja class
 - [ ] add an attribute: name
