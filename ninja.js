@@ -1,15 +1,43 @@
 // TODO Create a Ninja class
+class Ninja {
+    constructor(name) {
+    // TODO add an attribute: name
+        this.name = name;
+    // TODO add an attribute: health
+        this.health = 100;
+    // TODO add a attribute: speed - give a default value of 3
+        this.speed = 3
+    // TODO add a attribute: strength - give a default value of 3
+        this.strength = 3;
+    }
+    // TODO add a method: sayName() - This should log that Ninja's name to the console
+    sayName(){
+        console.log(this.name)
+    }
 
-// TODO add an attribute: name
+    // TODO add a method: showStats() - This should show the Ninja's name, strength, speed, and health.
+    showStats(){
+        console.log(`
+        name: ${this.name}
+        strength: ${this.strength}
+        speed: ${this.speed}
+        health: ${this.health}
+        `)
+    }
+    // TODO add a method: drinkSake() - This should add +10 Health to the Ninja
+    drinkSake(){
+        this.health += 10;
+    }
+}
 
-// TODO add an attribute: health
+const ninja1 = new Ninja("Bob")
+ninja1.sayName()
+ninja1.showStats()
+ninja1.drinkSake()
+ninja1.showStats()
 
-// TODO add a attribute: speed - give a default value of 3
 
-// TODO add a attribute: strength - give a default value of 3
 
-// TODO add a method: sayName() - This should log that Ninja's name to the console
 
-// TODO add a method: showStats() - This should show the Ninja's name, strength, speed, and health.
 
-// TODO add a method: drinkSake() - This should add +10 Health to the Ninja
+
