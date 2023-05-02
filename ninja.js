@@ -6,9 +6,9 @@ class Ninja {
     // TODO add an attribute: health
         this.health = health;
     // TODO add a attribute: speed - give a default value of 3
-        this.speed = 3
+        this.speed = speed
     // TODO add a attribute: strength - give a default value of 3
-        this.strength = 3;
+        this.strength = strength;
     }
     // TODO add a method: sayName() - This should log that Ninja's name to the console
     sayName(){
