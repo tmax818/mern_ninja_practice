@@ -1,10 +1,10 @@
 // TODO Create a Ninja class
 class Ninja {
-    constructor(name) {
+    constructor(name, health = 10, speed = 3, strength = 3) {
     // TODO add an attribute: name
         this.name = name;
     // TODO add an attribute: health
-        this.health = 100;
+        this.health = health;
     // TODO add a attribute: speed - give a default value of 3
         this.speed = 3
     // TODO add a attribute: strength - give a default value of 3
